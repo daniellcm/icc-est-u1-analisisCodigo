@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) {
 
+        Benchmarking benchmarking = new Benchmarking();
+
         MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
         int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
         int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
@@ -72,11 +74,11 @@ public class App {
         java.util.Arrays.toString(arregloInsercionOrdenado2));
 
         // Metodo insercionTercero
-        int[] arregloInsercionOrdenado3 =
-        ordenador.insercionTercero(arregloInsercion);
-        System.out.println(
-        "Resultado Insercion Metodo 3: " +
-        java.util.Arrays.toString(arregloInsercionOrdenado3));
+        // int[] arregloInsercionOrdenado3 =
+        // ordenador.insercionTercero(arregloInsercion);
+        // System.out.println(
+        // "Resultado Insercion Metodo 3: " +
+        // java.util.Arrays.toString(arregloInsercionOrdenado3));
 
     }
 }
